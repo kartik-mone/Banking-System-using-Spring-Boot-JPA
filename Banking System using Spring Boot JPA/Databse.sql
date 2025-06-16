@@ -1,0 +1,65 @@
+CREATE DATABASE IF NOT EXISTS JPA_Practice;
+use JPA_Practice;
+
+CREATE TABLE accounts (
+    account_id INT AUTO_INCREMENT PRIMARY KEY,
+    account_number VARCHAR(20) NOT NULL,
+    holder_name VARCHAR(100) NOT NULL,
+    account_type VARCHAR(20) NOT NULL,
+    balance DOUBLE NOT NULL
+);
+
+
+select * from accounts;
+
+INSERT INTO accounts (account_number, holder_name, account_type, balance) VALUES
+('ACC100001', 'Aarav Sharma', 'Saving', 15000.00),
+('ACC100002', 'Ananya Verma', 'Current', 21000.50),
+('ACC100003', 'Rohan Patel', 'Fixed', 50000.00),
+('ACC100004', 'Isha Nair', 'PPF', 6500.75),
+('ACC100005', 'Yash Mehta', 'Saving', 8200.00),
+('ACC100006', 'Diya Rao', 'Current', 14300.00),
+('ACC100007', 'Vivaan Reddy', 'Fixed', 47000.00),
+('ACC100008', 'Meera Menon', 'PPF', 5200.00),
+('ACC100009', 'Aryan Joshi', 'Saving', 9600.00),
+('ACC100010', 'Sanya Kapoor', 'Current', 11200.00),
+('ACC100011', 'Krishna Iyer', 'Saving', 3700.00),
+('ACC100012', 'Sneha Das', 'Fixed', 40000.00),
+('ACC100013', 'Aditya Ghosh', 'Current', 27000.00),
+('ACC100014', 'Ritika Bhatia', 'PPF', 6100.00),
+('ACC100015', 'Kabir Malhotra', 'Saving', 8900.00),
+('ACC100016', 'Tanya Kulkarni', 'Current', 23500.00),
+('ACC100017', 'Manav Dube', 'Fixed', 88000.00),
+('ACC100018', 'Neha Chatterjee', 'PPF', 7400.00),
+('ACC100019', 'Rahul Bhatt', 'Saving', 6300.00),
+('ACC100020', 'Priya Kaur', 'Current', 9200.00),
+('ACC100021', 'Harsh Vyas', 'Saving', 4900.00),
+('ACC100022', 'Ira Pillai', 'Fixed', 52000.00),
+('ACC100023', 'Ayaan Sen', 'PPF', 5900.00),
+('ACC100024', 'Kritika Naik', 'Current', 8000.00),
+('ACC100025', 'Dev Thakur', 'Saving', 9700.00),
+('ACC100026', 'Pooja Jain', 'Current', 11400.00),
+('ACC100027', 'Siddharth Saxena', 'Fixed', 73000.00),
+('ACC100028', 'Avni Mahajan', 'PPF', 6700.00),
+('ACC100029', 'Parth Joshi', 'Saving', 8500.00),
+('ACC100030', 'Nikita Chauhan', 'Current', 12200.00),
+('ACC100031', 'Tanmay Bansal', 'Saving', 6100.00),
+('ACC100032', 'Ishita Sehgal', 'Fixed', 65000.00),
+('ACC100033', 'Arjun Salvi', 'PPF', 5100.00),
+('ACC100034', 'Simran Tiwari', 'Current', 10200.00),
+('ACC100035', 'Rajat Dubey', 'Saving', 3900.00),
+('ACC100036', 'Bhavya Shetty', 'Fixed', 91000.00),
+('ACC100037', 'Devika Sinha', 'PPF', 5800.00),
+('ACC100038', 'Nikhil Rathi', 'Current', 9900.00),
+('ACC100039', 'Anushka Rawat', 'Saving', 4200.00),
+('ACC100040', 'Mihir Anand', 'Fixed', 72000.00),
+('ACC100041', 'Riya Venkatesh', 'PPF', 4900.00),
+('ACC100042', 'Lakshman Pawar', 'Current', 8700.00),
+('ACC100043', 'Nandini Barot', 'Saving', 7600.00),
+('ACC100044', 'Karan Kataria', 'Fixed', 63000.00),
+('ACC100045', 'Sakshi Bhagat', 'PPF', 6200.00),
+('ACC100046', 'Rajeev Singhania', 'Current', 9400.00),
+('ACC100047', 'Shruti Mistry', 'Saving', 8100.00),
+('ACC100048', 'Akhil Mathur', 'Fixed', 78000.00),
+('ACC100049', 'Trisha Dholakia', 'PPF', 6600.00),
+('ACC100050', 'Varun Agarwal', 'Current', 9300.00);

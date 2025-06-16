@@ -1,0 +1,20 @@
+				** Repository **
+
+Repositories is Not a 'Class' it is an 'Interface'.
+
+In 'Repository Interface' extend that class with JpaRepository (cltr + space) --> extends JpaRepository<T, ID>
+	where, T -> Inside entities package we created one class, put that class name (Entity class) here
+	      ID -> DataType of our primary key which we use in entity class (Example : Integer, float double, etc)
+
+Ex. : 
+
+package com.jpa_practice3.JPA.Practice._5.to._1.com.netbanking.jpaaccountadmin.repositories;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import com.jpa_practice3.JPA.Practice._5.to._1.entities.Account;
+
+@Repository
+public interface AccountRepository extends JpaRepository<Account, Integer> {
+	
+
+}
