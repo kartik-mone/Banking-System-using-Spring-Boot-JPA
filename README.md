@@ -73,15 +73,18 @@ src/
 │ │ └── AccountServices.java
 │ └── Application.java
 ├── resources/
-└── webapp/
-├── index.jsp
-├── NewAccount.jsp
-├── accountdetails.jsp
-├── DepositForm.jsp
-├── WithdrawForm.jsp
-├── DeductForm.jsp
-├── TransferForm.jsp
-└── CloseAccountForm.jsp
+│  └── static
+│  └── templates
+│  └── application.properties
+└── webapp/ 
+   └── index.jsp
+   └── NewAccount.jsp
+   └── accountdetails.jsp
+   └── DepositForm.jsp
+   └── WithdrawForm.jsp
+   └── DeductForm.jsp
+   └── TransferForm.jsp
+   └── CloseAccountForm.jsp
 ```
 6. **Resources Included**
 
