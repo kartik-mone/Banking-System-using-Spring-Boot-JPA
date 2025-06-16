@@ -59,7 +59,7 @@ Navigate to http://localhost:8080/admin for admin login/dashboard
 ```
 
 5. **Project Structure**
-
+```bash
 src/
 └── main/
 ├── java/
@@ -82,7 +82,7 @@ src/
 ├── DeductForm.jsp
 ├── TransferForm.jsp
 └── CloseAccountForm.jsp
-
+```
 6. **Resources Included**
 
 - Database.sql - SQL schema for accounts
